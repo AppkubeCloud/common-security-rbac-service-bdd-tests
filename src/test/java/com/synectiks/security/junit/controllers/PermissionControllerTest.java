@@ -28,8 +28,8 @@ import net.thucydides.core.annotations.Title;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
 
-//@RunWith(SerenityRunner.class)
-//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+@RunWith(SerenityRunner.class)
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class PermissionControllerTest extends TestBase{
 	
 	public static long version=TestUtils.getRandomInt();

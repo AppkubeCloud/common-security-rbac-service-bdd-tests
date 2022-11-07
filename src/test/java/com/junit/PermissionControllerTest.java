@@ -1,4 +1,4 @@
-package com.synectiks.security.junit.controllers;
+package com.junit;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -28,9 +28,9 @@ import net.thucydides.core.annotations.Title;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
 
-//@RunWith(SerenityRunner.class)
+@RunWith(SerenityRunner.class)
 //@FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class SecTest2 extends TestBase{
+public class PermissionControllerTest extends TestBase{
 	
 	public static long version=TestUtils.getRandomInt();
 	public static String name="Test Permision_"+TestUtils.getRandomString();

@@ -1,30 +1,18 @@
 package com.synectiks.security.junit.controllers;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
-import java.nio.charset.Charset;
 import java.util.HashMap;
-import java.util.Random;
-
-import org.apache.commons.lang.RandomStringUtils;
-import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
 
-import com.synectiks.security.entities.Permission;
 import com.synectiks.security.entities.Role;
 import com.synectiks.security.testbase.TestBase;
 import com.synectiks.security.utils.TestUtils;
 
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
-import net.thucydides.core.annotations.Manual;
-import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Title;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
